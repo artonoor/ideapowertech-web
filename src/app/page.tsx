@@ -195,10 +195,22 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20 overflow-hidden">
+        {/* Quantum Lab hero image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/quantum-lab-v3.png"
+            alt="IdeaPower Quantum Lab"
+            className="w-full h-full object-cover object-center"
+            style={{ opacity: 0.45 }}
+          />
+          <div className="absolute inset-0" style={{
+            background: 'linear-gradient(to bottom, rgba(4,4,13,0.3) 0%, rgba(4,4,13,0.1) 40%, rgba(4,4,13,0.7) 80%, rgba(4,4,13,1) 100%)'
+          }} />
+        </div>
         <ParticleCanvas />
         <div className="absolute inset-0 pointer-events-none"
           style={{
-            backgroundImage: 'linear-gradient(rgba(59,130,246,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.03) 1px, transparent 1px)',
+            backgroundImage: 'linear-gradient(rgba(59,130,246,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.02) 1px, transparent 1px)',
             backgroundSize: '60px 60px'
           }} />
 
