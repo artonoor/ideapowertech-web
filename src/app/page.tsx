@@ -75,6 +75,18 @@ const properties = [
     emoji: '🖼️',
     color: '#ec4899',
   },
+  {
+    id: 'actpower',
+    name: 'ActPower',
+    url: 'https://act.ideapower.ai',
+    status: 'BUILDING',
+    tagline: 'The execution engine',
+    description: 'Ideas don\'t change the world. Action does. ActPower is the steam engine for your goals.',
+    character: 'The Catalyst',
+    characterDesc: 'Turns stored fuel into forward motion. The engine that burns ideas into reality.',
+    emoji: '⚡',
+    color: '#f97316',
+  },
 ]
 
 function ParticleCanvas() {
@@ -181,7 +193,7 @@ export default function Home() {
           <span className="text-sm font-bold tracking-widest text-blue-400 uppercase">IdeaPower.tech</span>
         </div>
         <div className="text-xs text-white/30 tracking-widest hidden md:block">
-          SYSTEM STATUS: {liveCount}/6 PROPERTIES ONLINE
+          SYSTEM STATUS: {liveCount}/7 PROPERTIES ONLINE
         </div>
         <div className="hidden md:flex items-center gap-6 text-xs text-white/40">
           <a href="#nodes" className="hover:text-white transition-colors tracking-wider">NODES</a>
@@ -232,13 +244,13 @@ export default function Home() {
 
           <p className="text-base text-white/25 max-w-2xl mx-auto mb-16 leading-relaxed font-sans">
             Publishing for the age of Dreaming Humans and Acting Machines.
-            Six properties. One engine. Infinite ideas.
+            Seven properties. One engine. Infinite ideas.
           </p>
 
           <div className="max-w-md mx-auto mb-16">
             <div className="flex justify-between text-xs text-white/30 mb-2 tracking-widest">
               <span>JULY 1 LAUNCH SEQUENCE</span>
-              <span>{liveCount}/6 ONLINE</span>
+              <span>{liveCount}/7 ONLINE</span>
             </div>
             <div className="h-1 bg-white/5 rounded-full overflow-hidden">
               <div className="h-full bg-gradient-to-r from-blue-500 to-blue-300 rounded-full transition-all duration-1000"
@@ -259,7 +271,7 @@ export default function Home() {
           <div className="text-center mb-20">
             <p className="text-xs tracking-[0.4em] text-blue-400/60 uppercase mb-4">The Network</p>
             <h2 className="text-3xl md:text-4xl font-black mb-4">
-              Six properties. Six agents.<br />
+              Seven properties. Seven agents.<br />
               <span className="text-white/30">Robots and humans. Working together.</span>
             </h2>
             <p className="text-white/30 text-sm max-w-xl mx-auto font-sans">
